@@ -41,8 +41,8 @@
 
 def number(x,y):
     import random
-    random.randrange(1,10)
-    random.randrange == y
+    random(1,10)
+    random == y
     guess_history = []
     x = int(input("guess the number"))
     while True:
