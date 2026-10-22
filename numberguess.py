@@ -1,5 +1,6 @@
-# x = 500
-# y = 0 #y isnt needed
+#x = 500
+# y = 0
+#y isnt needed
 
 # while True:
 #     if x > 0:
@@ -41,21 +42,20 @@
 
 def number(x,y):
     import random
-    random(1,10)
-    random == y
+    y = random.randint(1,10)
     guess_history = []
-    x = int(input("guess the number"))
     while True:
-        if x == y:
-            print("perfect")
-            break
-        elif x > y:
+        x = int(input("guess the number"))
+        if x > y:
             print("too much")
             guess_history.append(x)
         elif x < y:
             print("too little")
             guess_history.append(x)
+        else:
+            print("perfect")
+            break
 
         guess_history.append(x)
-        for i in range(1,10):
-            print(guess_history)
+        for i in guess_history:
+            print(i)
