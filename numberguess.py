@@ -29,7 +29,7 @@
 
 
 
-# while True:
+# while True:   
 #     z = input("enter a number to multiply by 2 (or 'exit' to quit):")
 
 #     if z == "exit":
@@ -44,16 +44,18 @@ def number(x,y):
     random.randrange(1,10)
     random.randrange == y
     guess_history = []
+    x = int(input("guess the number"))
     while True:
-        x == int(input("guess the number"))
-        if x > y:
-            print("too much")
-            guess_history.append(x)
-            print(guess_history)
-        if x < y:
-            print("too little")
-            guess_history.append(x)
-            print(guess_history)
         if x == y:
             print("perfect")
-        break
+            break
+        elif x > y:
+            print("too much")
+            guess_history.append(x)
+        elif x < y:
+            print("too little")
+            guess_history.append(x)
+
+        guess_history.append(x)
+        for i in range(1,10):
+            print(guess_history)
