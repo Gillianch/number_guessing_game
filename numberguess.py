@@ -44,16 +44,16 @@ def number(x,y):
     import random
     y = random.randint(1,10)
     guess_history = []
+    x = int(input('guess the number'))
     while True:
-        x = int(input("guess the number"))
         if x > y:
-            print("too much")
+            print('too much')
         elif x < y:
-            print("too little")
+            print('too little')
         else:
-            print("perfect")
+            print('perfect')
             break
 
         guess_history.append(x)
-        for i in guess_history:
-            print(i)
+        for i in range:
+            print(guess_history)
