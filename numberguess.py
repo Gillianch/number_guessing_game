@@ -48,10 +48,8 @@ def number(x,y):
         x = int(input("guess the number"))
         if x > y:
             print("too much")
-            guess_history.append(x)
         elif x < y:
             print("too little")
-            guess_history.append(x)
         else:
             print("perfect")
             break
