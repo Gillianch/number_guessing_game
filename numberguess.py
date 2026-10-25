@@ -40,7 +40,7 @@
 
 
 
-def number(x,y):
+def number():
     import random
     y = random.randint(1,10)
     guess_history = []
@@ -57,9 +57,9 @@ def number(x,y):
             print("perfect")
             break
 
-            print(guess_history)
-            for i in guess_history: 
-                print(i)
+    print(guess_history)
+    for i in guess_history: 
+        print(i)
                 
 
-    number(x,y)
+number()
