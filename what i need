@@ -1,0 +1,7 @@
+You will be creating a program that creates a random number and then have the user guess the number. The code must contain all of the following 
+-Generate a random number between 1 and 10 (you can do more if you want). Feel free to google random number Python (It’s good to look things up from time to time!) 
+-Use a while loop that breaks only when the user correctly guesses the number 
+-create a variables to represent the random number and what the user has guessed 
+-using conditional statements, inform the user if their guess is less than or greater than the random number 
+-push the users incorrect guess into a guess_history list. Print the used letters at every wrong guess 
+-When the user guesses correctly inform them and show them their guess history using a for loop
